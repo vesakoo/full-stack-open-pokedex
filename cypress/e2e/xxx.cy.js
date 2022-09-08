@@ -5,3 +5,13 @@ describe('Pokedex', function() {
     cy.contains('Pokémon and Pokémon character names are trademarks of Nintendo.')
   })
 })
+
+/*describe('foo', function() {
+  it('Navigate ivysaur', function() {
+    cy.visit('http://localhost:5000')
+    .get("a","/pokemon/ivysaur")
+    .click()
+    cy.contains('chlorophyll')
+  })
+
+})*/
