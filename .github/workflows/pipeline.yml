@@ -27,5 +27,5 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY_TEST }}
-          source: "."
+          source: "dist/*"
           target: "testdeploy"
